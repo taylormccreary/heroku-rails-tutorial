@@ -12,3 +12,12 @@ RSpec.describe Course, :type => :model do
 			end
 		end
 end
+
+RSpec.describe Course, :type => :model do
+	let(:course_instance) { Course.create(dept: "Math", num: "3A", desc: "Calculus") }
+	describe "public instance methods" do
+		context "course_num returns correct values" do
+			it { expect(course_instance.course_num).to eq("Math 3A") }
+		end
+	end
+end
