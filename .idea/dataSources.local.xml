@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails myapp: test" uuid="c6afe3f3-69c5-458b-a214-edf7a224895b">
+      <user-name>postgres</user-name>
+      <user-password>dfdedfcbdfd3dfc8dfcbdfd3df99df98df9bdfeadffadfe5dff9dffedfeddff8dfefdff9</user-password>
+    </data-source>
+    <data-source name="Rails myapp: production" uuid="099b7e92-8c72-4bf5-a2f3-310821d0f954">
+      <user-name>postgres</user-name>
+      <user-password>dfdedfcbdfd3dfc8dfcbdfd3df99df98df9bdfeadffadfe5dff9dffedfeddff8dfefdff9</user-password>
+      <schema-pattern>postgres.pg_catalog postgres.public</schema-pattern>
+      <default-schemas>postgres.public</default-schemas>
+    </data-source>
+    <data-source name="Rails myapp: development" uuid="19154e43-ff86-4beb-89cc-31e67fbf7c37">
+      <user-name>postgres</user-name>
+      <user-password>dfdedfcbdfd3dfc8dfcbdfd3df99df98df9bdfeadffadfe5dff9dffedfeddff8dfefdff9</user-password>
+      <schema-pattern>postgres.pg_catalog postgres.public</schema-pattern>
+      <default-schemas>postgres.public</default-schemas>
+    </data-source>
+  </component>
+</project>
