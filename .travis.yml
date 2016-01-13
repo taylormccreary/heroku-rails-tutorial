@@ -10,5 +10,6 @@ before_script:
     - psql -c 'create database myapp_test;' -U postgres
     - bundle exec rake assets:precompile
     
-install:
-    - bundle _1.10.6_ install
+before_install:
+    - rvm @global do gem uninstall bundle -a -x
+    - rvm @global do gem install bundler -v 1.10.6
