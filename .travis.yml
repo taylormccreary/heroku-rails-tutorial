@@ -6,5 +6,7 @@ script:
     - bundle exec rake db:test:prepare
     - bundle exec rake spec
 before_script:
+    - bundle _1.10.6_ install
+    
     - psql -c 'create database myapp_test;' -U postgres
     - bundle exec rake assets:precompile
